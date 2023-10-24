@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(240, 244, 232, 0.683);
+}
+h1{
+    text-align: center;
+    padding: 4px;
+    background-color: rgb(204, 233, 240);
+    border: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2em;
+}
+img{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+img.codigo{
+    padding: 1em;
+   
+}
+.identificacion{
+    padding: 2em;
+    margin-left: 2em;
+    border: solid rgb(44, 43, 43);
+    row-gap: 5px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 50px;
+}
+.primary{
+    display: grid;
+    row-gap: 3px;
+    text-align: center;
+    width: 200px;
+    height: 50px; 
+    color: rgb(44, 43, 43);
+    background-color: rgb(196, 239, 234);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .2em;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.primary:hover{
+    background-color: rgb(138, 177, 209);
+}
+.secondary{
+    text-align: center;
+    width: 500px;
+    height: 50px; 
+    color: rgb(44, 43, 43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .2em;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#crear{
+    color: rgb(44, 43, 43);
+    background-color: rgba(44, 213, 97, 0.646);
+}
+#crear:hover{
+    background-color: rgb(59, 60, 57);
+    color:rgba(44, 213, 97, 0.646)
+}
+#editar{
+    color: rgb(44, 43, 43);
+    background-color: rgba(41, 197, 195, 0.646);
+    margin-top: 2em;
+}
+#editar:hover{
+    background-color: rgb(59, 60, 57);
+    color: rgba(41, 197, 195, 0.646);
+}
+#eliminar{
+    color: rgb(44, 43, 43);
+    background-color: rgba(159, 65, 188, 0.646);
+    margin-top: 3em;
+
+}
+#eliminar:hover{
+    background-color: rgb(59, 60, 57);
+    color: rgba(159, 65, 188, 0.646);
+}
+#descargar{
+    color: rgb(44, 43, 43);
+    background-color: rgba(205, 219, 48, 0.646);
+    margin-top: 3em;
+}
+#descargar:hover{
+    background-color: rgb(59, 60, 57);
+    color: rgba(205, 219, 48, 0.943);
+}
+#vista{
+    color: rgb(44, 43, 43);
+    background-color: rgba(221, 46, 183, 0.646);
+    margin-top: 2em;
+   
+}
+#vista:hover{
+    background-color: rgb(59, 60, 57);
+    color:rgba(221, 46, 183, 0.646)
+    
+}
+p.usuario{
+    margin-bottom: 2em;
+    margin-top: 1em;
+    border: dashed grey;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img.usuario{
+   margin-left: 1.2em;
+   margin-top: .5em;
+   padding: .5em rgb(44, 43, 43)black;
+   border: double;
+}
+.botones{
+display: grid;
+margin-top: 2.5em;
+}
+input{
+   width: 150px;
+   height: 100px;
+   margin-bottom: .5em;
+}
